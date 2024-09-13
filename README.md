@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Mayan Legends
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a web 3 game based on NFTS a croos mayan culture.
 
-Try running some of the following tasks:
+MayanNFT.sol:
+this smart contract mint an nft whit a rarity and habilitie , common (basic ritual), rare(mayan strenght), Mythic(ancient wisdom) and legendary(divine proptection).
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+MayanChallenges.sol: whit token id of nft you acces to misions .
