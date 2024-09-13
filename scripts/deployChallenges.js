@@ -4,7 +4,7 @@ async function main() {
   const { ethers } = require("hardhat");
 
   // Dirección del contrato MayanNFT desplegado
-  const nftAddress = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+  const nftAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
   // Obtener el contrato MayanChallenges
   const MayanChallenges = await ethers.getContractFactory("MayanChallenges");
